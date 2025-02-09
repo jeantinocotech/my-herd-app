@@ -1,0 +1,31 @@
+{
+    "options": {
+        "schema": "profisa",
+        "table": "requests",
+        "columns": [
+            "id",
+            "status",
+            "created_at",
+            "updated_at",
+            "id_profiles_advisor",
+            "id_profiles_finder"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

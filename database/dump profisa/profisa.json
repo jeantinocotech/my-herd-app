@@ -1,0 +1,30 @@
+{
+    "schema": "profisa",
+    "includesDdl": true,
+    "includesViewsDdl": true,
+    "includesData": true,
+    "tables": [
+        "profiles_advisor",
+        "requests",
+        "profile_education",
+        "logs",
+        "users",
+        "education",
+        "profiles_finder",
+        "courses"
+    ],
+    "views": [],
+    "events": [],
+    "functions": [],
+    "procedures": [],
+    "basenames": {
+        "profiles_advisor": "profisa@profiles_advisor",
+        "requests": "profisa@requests",
+        "profile_education": "profisa@profile_education",
+        "logs": "profisa@logs",
+        "users": "profisa@users",
+        "education": "profisa@education",
+        "profiles_finder": "profisa@profiles_finder",
+        "courses": "profisa@courses"
+    }
+}

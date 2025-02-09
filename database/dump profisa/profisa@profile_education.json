@@ -1,0 +1,33 @@
+{
+    "options": {
+        "schema": "profisa",
+        "table": "profile_education",
+        "columns": [
+            "id_profiles_education",
+            "id_profiles_advisor",
+            "id_profiles_finder",
+            "id_education",
+            "Certification",
+            "dt_start",
+            "dt_end",
+            "comments"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id_profiles_education"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

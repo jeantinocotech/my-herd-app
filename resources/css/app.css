@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.course-selector-dropdown {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.course-tag {
+    transition: all 0.2s;
+}
+
+.course-tag:hover {
+    background-color: #e5e7eb;
+}

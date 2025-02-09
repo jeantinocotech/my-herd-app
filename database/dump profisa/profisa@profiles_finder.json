@@ -1,0 +1,35 @@
+{
+    "options": {
+        "schema": "profisa",
+        "table": "profiles_finder",
+        "columns": [
+            "id",
+            "user_id",
+            "full_name",
+            "profile_picture",
+            "linkedin_url",
+            "instagram_url",
+            "overview",
+            "created_at",
+            "updated_at",
+            "profile_completed"
+        ],
+        "defaultCharacterSet": "utf8mb4",
+        "fieldsTerminatedBy": "\t",
+        "fieldsEnclosedBy": "",
+        "fieldsOptionallyEnclosed": false,
+        "fieldsEscapedBy": "\\",
+        "linesTerminatedBy": "\n"
+    },
+    "triggers": [],
+    "includesData": true,
+    "includesDdl": true,
+    "extension": "tsv.zst",
+    "chunking": true,
+    "compression": "zstd",
+    "primaryIndex": [
+        "id"
+    ],
+    "partitions": [],
+    "basenames": {}
+}

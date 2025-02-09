@@ -1,0 +1,38 @@
+{
+    "end": "2025-01-23 16:49:18",
+    "dataBytes": 9434,
+    "tableDataBytes": {
+        "profisa": {
+            "courses": 476,
+            "profiles_finder": 0,
+            "profiles_advisor": 322,
+            "users": 7891,
+            "education": 347,
+            "requests": 56,
+            "profile_education": 342,
+            "logs": 0
+        }
+    },
+    "tableRows": {
+        "profisa": {
+            "courses": 30,
+            "profiles_finder": 0,
+            "profiles_advisor": 3,
+            "users": 66,
+            "education": 36,
+            "requests": 1,
+            "profile_education": 4,
+            "logs": 0
+        }
+    },
+    "chunkFileBytes": {
+        "profisa@users@@0.tsv.zst": 7891,
+        "profisa@courses@@0.tsv.zst": 476,
+        "profisa@profiles_finder@@0.tsv.zst": 0,
+        "profisa@profile_education@@0.tsv.zst": 342,
+        "profisa@education@@0.tsv.zst": 347,
+        "profisa@profiles_advisor@@0.tsv.zst": 322,
+        "profisa@requests@@0.tsv.zst": 56,
+        "profisa@logs@@0.tsv.zst": 0
+    }
+}
